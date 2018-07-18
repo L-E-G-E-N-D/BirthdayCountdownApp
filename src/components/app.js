@@ -4,12 +4,12 @@ export default class App extends Component {
   render() {
     return (
       <div className="grid">
-        <div>Hi</div>
-        <div>Hi</div>
-        <div>Hi</div>
-        <div className="grid__skew-light-one">Hi</div>
-        <div className="grid__skew-light-two">Hi</div>
-        <div className="grid__skew-light-three-box">Hi</div>
+        <div className="grid__skew-dark-one-box"></div>
+        <div className="grid__skew-dark-two"></div>
+        <div className="grid__skew-dark-three"></div>
+        <div className="grid__skew-light-one"></div>
+        <div className="grid__skew-light-two"></div>
+        <div className="grid__skew-light-three-box"></div>
       </div>
     );
   }
