@@ -2,8 +2,37 @@
     grid-row: 3/4;
     grid-column: 2/11;
     background-color: $color-gray-one;
-    height: 80%;
+    text-align: left;
+    height: 70%;
+    width: 100%;
     align-self: end;
     -webkit-clip-path: polygon(7% 0, 100% 0, 93% 100%, 0% 100%);
     clip-path: polygon(7% 0, 100% 0, 93% 100%, 0% 100%);
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 275px));
+    grid-column-gap: 20px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+
+    &__box {
+        margin-top: 2px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__title {
+        font-size: 18px;
+        line-height: 33px;
+        color: $color-yellow-one;
+    }
+    &__amount {
+        font-size: 80px;
+        font-weight: bold;
+        line-height: 65px;
+        color: white;
+    }
 }
